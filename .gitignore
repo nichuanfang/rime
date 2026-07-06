@@ -12,3 +12,4 @@ cache*
 installation.yaml
 sync
 user.yaml
+.idea
