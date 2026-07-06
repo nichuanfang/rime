@@ -51,7 +51,7 @@ ascii_composer:
     Shift_R: commit_code # 若启用了英文输入，可用右 Shift 切换中英输入
     Control_L: noop
     Control_R: noop # macOS 上此项可能无效（我发现我现在键盘压根没得右 Control 键，能不能用自测哈），Windows 上可自行定义
-    Caps_Lock: commit_code
+    Caps_Lock: noop
     Eisu_toggle: clear
 
 key_binder:
