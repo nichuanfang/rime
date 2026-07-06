@@ -24,4 +24,5 @@ patch:
     - name: traditionalization
       states: [简, 繁]
     - name: emoji_suggestion
-      states: [🈚️, 🈶️]
+      reset: 1 # 默认状态: 0 关闭 1 开启
+      states: [🈶,🈚]
