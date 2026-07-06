@@ -3,28 +3,38 @@
 
 ---
 name: extended
-version: "2025-01-11"
+version: "2026-07-06"
 
 import_tables:
+  - dicts/8105     # 字表
+  # - dicts/41448  # 大字表（按需启用）（启用时和 8105 同时启用并放在 8105 下面）
+  - dicts/base     # 基础词库
+  - dicts/ext      # 扩展词库
+  - dicts/tencent  # 腾讯词向量（大词库，部署时间较长）
+  - dicts/others   # 一些杂项
+
+
+
   # 覆盖词频
-  - dicts/simp # 最小拼音词典
+  #- dicts/simp # 最小拼音词典
 
-  - dicts/thuocl_animal # 动物
-  - dicts/thuocl_caijing # 财经
-  - dicts/thuocl_food # 饮食
-  - dicts/thuocl_idiom # 成语俗语
-  - dicts/thuocl_IT # IT
-  - dicts/thuocl_medical # 医学
-  - dicts/thuocl_renmingdiming # 人名地名
+  #- dicts/thuocl_animal # 动物
+  #- dicts/thuocl_caijing # 财经
+  #- dicts/thuocl_food # 饮食
+  #- dicts/thuocl_idiom # 成语俗语
+  #- dicts/thuocl_IT # IT
+  #- dicts/thuocl_medical # 医学
+  #- dicts/thuocl_renmingdiming # 人名地名
 
-  - dicts/simp-ext # 原字表中除单字外部分
-  - dicts/sogou_net # 网络流行语
+  #- dicts/simp-ext # 原字表中除单字外部分
+  #- dicts/sogou_net # 网络流行语
 
   # 一点点小小的私货，不需要的可以自行关闭~
-  - dicts/moegirl # 萌娘百科
-  - dicts/sogou_touhou # 东方 Project
-  - dicts/sogou_minecraft # Minecraft 词条
+  #- dicts/moegirl # 萌娘百科
+  #- dicts/sogou_touhou # 东方 Project
+  #- dicts/sogou_minecraft # Minecraft 词条
 
   # emoji 补全词库
-  - dicts/emoji
+  #- dicts/emoji
+
 ...
